@@ -11,8 +11,8 @@ body {
 }
 
 .bookList {
-    width: 90vw;
-    max-width: 1170px;
+    width: 99vw;
+    max-width: 1400px;
     margin: 5rem auto;
     display: grid;
     gap: 2rem;
@@ -33,11 +33,29 @@ body {
 .book h2 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    color: rgb(229, 241, 54);
+    color: rgb(1, 5, 5);
 }
 
 .book h3 {
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
-    color: rgb(250, 136, 42);
+    color: rgb(255, 0, 0);
+}
+
+.header {
+    text-align: center;
+    background-color: #fff;
+}
+
+.header h1 {
+    padding-top: 1rem;
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: #fff;
 }

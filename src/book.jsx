@@ -1,32 +1,32 @@
 import React from "react";
 import './book.css';
 
-export default function Book() {
+export default function Book(props) {
     return <article className="book">
-        <Img></Img>
-        <Title></Title>
-        <Auther/>
-        <Price/>
+        <Img img={props.img} title={props.name}></Img>
+        <Title name={props.name}></Title>
+        <Auther auther={props.auther}/>
+        <Price price={props.price}/>
     </article>
 }
 
-function Img() {
+function Img(props) {
   return (
     <img
-      src="https://images-eu.ssl-images-amazon.com/images/I/41+grDTP2FL._AC_UL604_SR604,400_.jpg"
-      alt=""
+      src={props.img}
+      alt={props.title}
     />
   );
 }
 
-function Auther() {
-    return <h4>Ankur Warikoo</h4>
+function Auther(props) {
+    return <h4>{props.auther}</h4>
 }
 
-function Title() {
-    return <h2>DO EPIC SHIT</h2>
+function Title(props) {
+    return <h2>{props.name}</h2>
 }
 
-function Price() {
-    return <h3>₹260.00</h3>
+function Price(props) {
+    return <h3>{props.price}</h3>
 }
