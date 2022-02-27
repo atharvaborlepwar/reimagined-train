@@ -1,0 +1,29 @@
+.header {
+  text-align: center;
+  min-height: 20vw;
+  max-height: 20vw;
+  background-image: url("https://images.unsplash.com/photo-1490332695540-5acc256ec383?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  /* background-color: #fff; */
+}
+
+.header h1 {
+    
+  font-family: "Dancing Script";
+  padding-top: 7rem;
+  font-size: 6rem;
+  color: #fff;
+}
+
+.header h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: large;
+    padding-left: 40vw;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: #fff;
+}
