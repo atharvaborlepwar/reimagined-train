@@ -8,7 +8,7 @@ import Price from './components/Price.cmp'
 
 export default function Book(props) {
     function onClick() {
-        alert(props.name);
+        alert(props.title);
     }
     return <section className="book" onClick={onClick}>
         <Img img={props.img} title={props.name}></Img>
