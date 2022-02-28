@@ -7,7 +7,10 @@ import Price from './components/Price.cmp'
 
 
 export default function Book(props) {
-    return <section className="book">
+    function onClick() {
+        alert(props.name);
+    }
+    return <section className="book" onClick={onClick}>
         <Img img={props.img} title={props.name}></Img>
         <Title name={props.name}></Title>
         <Auther auther={props.auther}/>
